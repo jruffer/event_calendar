@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  event_id: 1
+  attending: false
+  arrival_time: 2013-08-22 14:31:33
+  departure_time: 2013-08-22 14:31:33
+
+two:
+  user_id: 1
+  event_id: 1
+  attending: false
+  arrival_time: 2013-08-22 14:31:33
+  departure_time: 2013-08-22 14:31:33

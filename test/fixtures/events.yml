@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  starts_at: 2013-08-22 14:31:20
+  ends_at: 2013-08-22 14:31:20
+  user_id: 1
+  location: MyString
+  title: MyString
+  discription: MyString
+  catagory: MyString
+  all_day: false
+  lat: 1.5
+  long: 1.5
+  geocoded: false
+  picture: MyString
+
+two:
+  starts_at: 2013-08-22 14:31:20
+  ends_at: 2013-08-22 14:31:20
+  user_id: 1
+  location: MyString
+  title: MyString
+  discription: MyString
+  catagory: MyString
+  all_day: false
+  lat: 1.5
+  long: 1.5
+  geocoded: false
+  picture: MyString
