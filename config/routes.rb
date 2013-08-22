@@ -1,4 +1,8 @@
 EventCalendar::Application.routes.draw do
+  git 'sessions/new' => 'sessions#new', :as => 'new_session'
+  post 'sessions' => 'sessions#create', :as => 'sessions'
+  delete '/sessions'=> 'sessions#destroy', :as => 'sessions'
+
   resources :users
 
   resources :invites
@@ -45,7 +49,7 @@ EventCalendar::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'

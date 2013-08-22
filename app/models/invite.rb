@@ -1,4 +1,4 @@
 class Invite < ActiveRecord::Base
 belongs_to :user
-blongs_to :event
+belongs_to :event
 end
